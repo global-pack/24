@@ -16,15 +16,10 @@ try {
         body: JSON.stringify({
             "Consigna": formulario.consigna.value,
             "Slot Time": formulario.slot_time.value,
-            "Monto": formulario.monto.value,
-            "Pago": formulario.pago.value,
             "Driver": formulario.driver.value,
-            "Observaciones": formulario.observaciones.value,
-            "Tienda": formulario.tienda.value,
             "Legajo": formulario.legajo.value,
-            "Placa": formulario.placa.value,
-            "Km Inicial": formulario.km_inicial.value,
-            "Km Final": formulario.km_final.value
+            "Placa": formulario.placa.value
+            
         })
     });
 
